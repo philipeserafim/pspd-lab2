@@ -14,7 +14,7 @@ all:
 	make server
 
 runS:
-	bin/server 127.0.0.1 8005
+	bin/server 127.0.0.1 8000
 
 runC:
-	bin/client 127.0.0.1 8005
+	bin/client 127.0.0.1 8000
