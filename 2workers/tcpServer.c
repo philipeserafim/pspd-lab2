@@ -16,6 +16,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include <pthread.h>
+#include <unistd.h>
 
 #define QLEN 5      /* tamanho da fila de clientes  */
 #define MAX_SIZE 80 /* tamanho do buffer */
